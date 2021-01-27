@@ -13,7 +13,7 @@
                 $row = $stmt->fetchColumn();
                 if ($row > 0)
                 {
-                    echo "Error: Email already Exist.";
+                   // echo "Error: Email already Exist.";
                 } else {
                     $sql = "INSERT INTO myguests (firstname, lastname, email) VALUES (?,?,?)";
                     $stmt= $conn->prepare($sql);

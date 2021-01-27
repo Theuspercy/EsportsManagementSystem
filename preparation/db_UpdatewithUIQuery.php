@@ -17,7 +17,7 @@
     try {
 
         $conn->beginTransaction();
-
+        
         $stmt = $conn->prepare("SELECT count(*) FROM myguests  WHERE firstname = :old_fname AND email = :old_email");
         $stmt->bindParam(":old_fname", $firstname);
         $stmt->bindParam(":old_email", $email);

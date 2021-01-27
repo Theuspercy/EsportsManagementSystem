@@ -10,6 +10,8 @@
     <h1><a href="db_UpdatewithUI.php">UPDATE QUERY</a></h1>
 
     <h1><a href="db_DeletewithUI.php">DELETE QUERY</a></h1>
+
+    <h1> WOW </h1>
 </body>
 
 </html>
